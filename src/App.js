@@ -22,7 +22,7 @@ class App extends Component {
       },
     ],
   }
-  removeCharcter = (index) => {
+  removeCharacter = (index) => {
     const {characters} = this.state
 
     this.setState({
